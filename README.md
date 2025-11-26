@@ -4,7 +4,9 @@ A CLI tool to split XHTML files inside an EPUB into separate "pages" using a mar
 
 ## Getting your EPUB from PDF
 
-If you have a PDF and want to use this tool, first convert your PDF to EPUB (fixed layout) using [PDF24 Tools](https://tools.pdf24.org/en/pdf-to-epub). The resulting EPUB will usually contain all content in a single page—perfect for splitting with this CLI.
+This tool is designed to split EPUBs generated from PDFs using [PDF24 Tools](https://tools.pdf24.org/en/pdf-to-epub). The resulting EPUB will usually contain all content in a single page—perfect for splitting with this CLI.
+
+**Note:** The table of contents (TOC) will not be generated automatically. After splitting, you should manually create or edit the TOC using [Sigil](https://sigil-ebook.com/sigil/download/), a free EPUB editor.
 
 ---
 

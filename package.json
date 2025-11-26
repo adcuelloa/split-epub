@@ -1,6 +1,6 @@
 {
   "name": "split-epub",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI tool to split an EPUB file into multiple pages based on selected patterns",
   "type": "module",
   "bin": {
